@@ -8,8 +8,10 @@ h1{
 .name{
     color: orange;
 }
-section{
+
+.flexable-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -17,6 +19,8 @@ section{
 }
 .half-width img{
     width: 80%;
+   padding-top: 100px;
+   padding-left: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -24,6 +28,7 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
     color: black;
+    font-weight: 700;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -32,5 +37,39 @@ section{
 .big-dreame{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right ;
+}
+h2{
+    font-size: 40px;
+}
+.exp-item{
+    box-shadow: 10px  10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.dream-img{
+    width: 80%;
+    
+}
+.footer-p{
+    text-align: center;
+    font-weight: 200;
+}
+#baby-div{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan) ;
+    border-image-slice:1;
+}
+#full-div{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,tomato) ;
+    border-image-slice:1;
 }
